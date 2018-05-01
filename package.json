@@ -1,0 +1,46 @@
+{
+  "name": "grammarize",
+  "version": "0.0.1",
+  "description": "Helper function to provide grammatical context for words",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint ./index.js",
+    "test": "nyc mocha --require babel-core/register",
+    "build": "npm run lint && npm run test && babel ./index.js -d ./dist",    
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melanieseltzer/grammarize.git"
+  },
+  "keywords": [
+    "javascript",
+    "npm",
+    "node",
+    "grammar"
+  ],
+  "author": "Melanie Seltzer <melleh11@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melanieseltzer/grammarize/issues"
+  },
+  "homepage": "https://github.com/melanieseltzer/grammarize#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "mocha": "^5.1.1",
+    "nyc": "^11.7.1"
+  }
+}
