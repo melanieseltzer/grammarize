@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- node
+before_deploy:
+- npm run build
+deploy:
+  skip_cleanup: true
+  provider: npm
+  email: melleh11@gmail.com
+  api_key:
+    secure: GDU7Np6iYPQgR1smpmv4Ez8en83AUM2xMNeQM0zjQb7EO3lemcWNgCfbyZ/F3/wFJM7F2D5uDf6oDxuJj9t1GQgCSSDWkVKjQ0SA7O7ng+FdI8JpKvD+VczAHQBIKjQmgWYlDBkzbmYsBwd0hP3oWqQnq7XX8VikYaH6dXDHbnYjUDYqaK7ZjW35NpjV2aQAltyBEuVYcI6APQY9COk0cDFHcF1lBveN71oq17AwVqeP0eVXe4ilmnwMLEj3GI5ruwlB16/qxF8TzkGaF+XekTlhSL+x50VzLVWKJeVJ5Q/34aExiYA1pHjB00THMJkxyQfBMgux+rnnFaYfH/oRaEvPeUHtMDsN7pDltO2DRzEmVcrlKZ1bc0rQwl1bIe3MsV4C0FIgWPeMHOWPMOhbdf1kjKrAsUq7gZf2L+RUvXGIkKJp4XzPs1RSxE5vOBzMq5yBQR6TjCUiSOVI75xFAty/7whch0FKkb9CIGGW1KVp4GT3jFsYxLkPsI/JOR6+Onnc9xwcYWVZvZit5JskrfTdEFTS7gNzFYoTiuM3I94t4gUpmWtgmisuLTQukUeaXe3whVjKF00XWu8PIWCFewxqlJCJDvYvYlrewnLFg8MGEcxPIRJ4EbXTxPrd1Ti0cm2mtphX8onMpk3zRXmewLNzEu3FNJIFugzrACXASL8=
+  on:
+    tags: true
+    repo: melanieseltzer/grammarize

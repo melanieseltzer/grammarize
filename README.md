@@ -1,4 +1,5 @@
-# grammarize
+# grammarize [![Build Status](https://travis-ci.org/melanieseltzer/grammarize.svg?branch=master)](https://travis-ci.org/melanieseltzer/grammarize)
+
 :books: A small helper function to provide some grammatical context to your numbers.
 
 ## Install
