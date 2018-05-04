@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm i grammarize
+$ npm i grammarize --save
 ```
 
 ## Usage
@@ -34,6 +34,4 @@ Type: `string`
 
 ## License
 
-```
-MIT © Melanie Seltzer
-```
+MIT

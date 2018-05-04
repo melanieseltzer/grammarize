@@ -28,7 +28,7 @@
     "grammar"
   ],
   "author": "Melanie Seltzer <melleh11@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/melanieseltzer/grammarize/issues"
   },
