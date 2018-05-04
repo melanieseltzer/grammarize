@@ -1,6 +1,6 @@
 {
   "name": "grammarize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helper function to provide grammatical context for words",
   "main": "dist/index.js",
   "scripts": {
