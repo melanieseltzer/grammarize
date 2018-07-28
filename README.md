@@ -1,4 +1,4 @@
-# grammarize [![npm version](https://badge.fury.io/js/grammarize.svg)](https://badge.fury.io/js/grammarize) [![Build Status](https://travis-ci.org/melanieseltzer/grammarize.svg?branch=master)](https://travis-ci.org/melanieseltzer/grammarize) [![Known Vulnerabilities](https://snyk.io/test/github/melanieseltzer/grammarize/badge.svg)](https://snyk.io/test/github/melanieseltzer/grammarize)
+# grammarize [![npm](https://img.shields.io/badge/npm-v1.1.0-blue.svg)](https://www.npmjs.com/package/grammarize) [![Build Status](https://travis-ci.org/melanieseltzer/grammarize.svg?branch=master)](https://travis-ci.org/melanieseltzer/grammarize) [![Known Vulnerabilities](https://snyk.io/test/github/melanieseltzer/grammarize/badge.svg)](https://snyk.io/test/github/melanieseltzer/grammarize)
 
 :books: A small helper function to provide some grammatical context to your numbers.
 
