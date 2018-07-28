@@ -12,3 +12,6 @@ deploy:
   on:
     tags: true
     repo: melanieseltzer/grammarize
+branches:
+  only: 
+    - master
