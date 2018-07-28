@@ -1,8 +1,17 @@
 const grammarize = (amount, singular, plural) => {
-  if (typeof amount === 'number' && typeof singular === 'string' && typeof plural === 'string') {
-    return Math.abs(amount) === 1 ? singular : plural;
+  if (typeof amount !== 'number') {
+    return null;
   }
-  return null;
+
+  if (typeof singular !== 'string') {
+    return null;
+  }
+
+  if (typeof plural !== 'string') {
+    return null;
+  }
+
+  return Math.abs(amount) === 1 ? singular : plural;
 };
 
 export default grammarize;
